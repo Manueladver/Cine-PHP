@@ -1,0 +1,97 @@
+/* CSS GENERAL */
+
+html { 
+  background: url(../img/bg_cine.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	max-width: 100%;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Helvetica', 'Arial', 'Verdana', sans-serif;
+}
+
+#main-content {
+	background: #fff;
+	border: 1px solid #000;
+	margin-top: 100px;
+	border-radius: 15px;
+}
+
+#main-content h2 {
+	text-align: center;
+}
+
+header {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#logo {
+	width: 280px;
+	margin: 0 auto;
+}
+
+#form-section {
+	padding-bottom: 40px;
+}
+
+#form-section p {
+	text-align: center;
+}
+
+div#fields {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+}
+
+label {
+	font-weight: bold;
+	padding-left: 25px;
+}
+
+input#usuario, input#contrasena {
+	width: 33%;
+}
+
+input[type="submit"] {
+	width: 10%;
+    border: none;
+    font-size: 20px;
+}
+
+#registro input[type="submit"] {
+	width: 15%: 
+}
+
+div#log {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* CSS PÁGINA */
+
+div#screen-section {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+form#pelis {
+	padding-bottom: 40px;
+}
+
+/* CSS COMPRA */
+
+div#checkout-section {
+	text-align: center;
+	padding-bottom: 40px;
+}
